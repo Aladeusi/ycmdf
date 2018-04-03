@@ -6,21 +6,38 @@
  <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div id="entry-welcome">
+                    <div id="page-title" class="clearfix">
 
-                        @if(isset($CategoryDetails))
-                        <p style="text-transform: uppercase;">Browsing category</p>
-                        <h4>{{$CategoryDetails->name}}</h4>
-                        <p>
-                            {{$CategoryDetails->desc}}
-                        </p>
+                       @if(isset($CategoryDetails))
+                        
+
+
+                        <div class="single-title">
+                            <p style="text-transform: uppercase;">Browsing category</p>
+                            <h4>{{$CategoryDetails->name}}</h4>
+                        </div> 
+                        <span class="entry-header-meta">
+                         <span class="cat-desc">
+                             {{$CategoryDetails->desc}}
+                         </span> 
+                         
+
+                        </span>
+
                         @else
 
+                        <div class="single-title">
+                            <h1 class="entry-title" style="text-transform: capitalize;">Blog</h1>
+                        </div> 
+                        <span class="entry-header-meta">
+                         <span class="cat-desc h3">
+                             Collection of comprehensive hacking posts
+                         </span> 
+                         
 
-                        <h4>BLOG</h4>
-                        <p>
-                            Collection of comprehensive hacking posts
-                        </p>
+                        </span>
+
+                        
 
                         @endif
                         

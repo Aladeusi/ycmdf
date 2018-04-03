@@ -26,6 +26,34 @@
 
         <!-- Custom style Css -->
         <link href="{{asset('landing/css/style.css')}}" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+ <style type="text/css">
+            
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+        width: 18px;
+    }
+
+    .mobile-only {
+        display:none !important;
+        width: 18px;
+    }
+}
+ 
+
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+        width: 18px;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+        width: 18px;
+    }
+}
+        </style>
     </head>
 
     <body>
@@ -35,7 +63,9 @@
             <div class="container">
                 <!-- LOGO -->
                 <a class="navbar-brand logo" href="">
-                    <img src="{{asset('images/logosm.png')}}" style="width:18%;">
+                    
+                    <small class="mobile-only">Finesse Hackers</small>
+                    <img class="desktop-only" src="{{asset('images/logosm.png')}}" style="width: 60px;">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,7 +132,7 @@
                             <div class="contact-detail mt-3">
                                 <p class="mb-0">Email Us At</p>
                                 <p class="text-muted">finessehackers1@gmail.com</p>
-                                <p class="text-muted">extremeinfiltrators@gmail.com</p>
+                                <p class="text-muted">finessehackers@gmal.com</p>
                             </div>
                         </div>
                     </div>

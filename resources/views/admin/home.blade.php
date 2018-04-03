@@ -62,9 +62,9 @@
                                                     <tr>
                                                         <th>S/N</th>
                                                         <th>Date</th>
-                                                        <th>Service</th>
+                                                        <th>Request</th>
                                                         <th>Email</th>
-                                                        <th>Phone</th>
+                                                        
                                                         <th>Status</th>
                                                         <th>Action</th>
                                                     </tr>
@@ -78,9 +78,9 @@
                                                     <tr>
                                                         <td>{{$count}}</td>
                                                         <td>{{$Hire->created_at}}</td>
-                                                        <td>{{$Hire->service->name}}</td>
+                                                        <td>{{$Hire->hrequest}}</td>
                                                         <td>{{$Hire->email}}</td>
-                                                        <td>{{$Hire->phone}}</td>
+                                                        
                                                         <td>
 
                                                             @if($Hire->has_viewed==1)

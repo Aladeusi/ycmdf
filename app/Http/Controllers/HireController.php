@@ -34,22 +34,15 @@ class HireController extends Controller
 
         $rule=array(
             
-            'firstname'=>'required',
-            'lastname'=>'required',
+            
             'email'=>'required',
-            'country'=>'required',
-            'phone'=>'required',
-            'completed_at'=>'required',
-            'service'=>'required',
-            'victim_info'=>'required',
-            'price'=>'required',
+            'hrequest'=>'required',
             'payment_method'=>'required',
-            'is_payment_ready'=>'required',
             );
 
         $message=array(
             
-            'firstname'=>'This field is required'
+            'email'=>'This field is required'
             );
 
         $validator=Validator::make($formData, $rule, $message);
@@ -61,27 +54,18 @@ class HireController extends Controller
 
         $hire=new Hire;
 
-        $hire->firstname=$request->firstname;
-
-        $hire->lastname=$request->lastname;
+      
         
         $hire->email=$request->email;
         
-        $hire->country=$request->country;
         
-        $hire->phone=$request->phone;
-        
-        $hire->completed_at=$request->completed_at;
         
         $hire->service_id=$request->service;
-        
-        $hire->victim_info=$request->victim_info;
-        
-        $hire->price_range=$request->price;
+
+         $hire->hrequest=$request->hrequest;
         
         $hire->payment_method=$request->payment_method;
         
-        $hire->is_payment_ready=$request->is_payment_ready;
 
         $hire->has_viewed=0;
 
@@ -98,3 +82,4 @@ class HireController extends Controller
     	
     }
 }
+

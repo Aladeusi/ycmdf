@@ -137,7 +137,7 @@
                     <div class="col-lg-4">
                         <div class="lan_box_ser mt-3 text-center">
                             <div class="ser_icon">
-                                <i class="">{{$count}}</i>
+                                <i class="{{$Service->icon}}"></i>
                             </div>
                             <div class="service-content mt-4">
                                 <h5 class="font-weight-bold">{{$Service->name}}</h5>

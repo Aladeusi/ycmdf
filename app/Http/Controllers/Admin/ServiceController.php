@@ -48,6 +48,7 @@ class ServiceController extends Controller
             'name'=>'required',
 
              'desc'=>"required",
+		'icon'=>"required",
             );
 
         $message=array(
@@ -63,7 +64,7 @@ class ServiceController extends Controller
         }else{
 
         $service=new Service;
-
+	$service->icon=$request->icon;
         $service->name=$request->name;
 
         $service->desc=$request->desc;

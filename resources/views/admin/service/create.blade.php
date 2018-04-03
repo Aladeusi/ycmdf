@@ -56,7 +56,22 @@
                                 <form class="form-horizontal" method="POST" action="{{route('admin.service.create.submit')}}">
 
                                      {{ csrf_field() }}
+			 <div class="form-group{{ $errors->has('icon') ? ' has-error' : '' }}">
+                            <label for="icon" class="col-md-4 control-label">Service icon</label>
 
+                            <div class="col-md-12">
+                                <input id="icon" class="form-control" value="{{old('icon')}}" name="icon" id="icon" type="text">
+
+                                @if ($errors->has('icon'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('icon') }}</strong>
+                                    </span>
+                                @endif
+
+                          </div>
+                        </div>
+
+			
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                             <label for="name" class="col-md-4 control-label">Service name</label>
 
@@ -111,6 +126,24 @@
                                 
                             </div>
                         </div>
+
+			 <div class="alert alert-success alert-sm alert-dismissable">
+
+		    <label>Service icons</label>
+				<br>
+                            <span>"fas fa-mobile-alt" - For phone</span><br>
+                            <span>"fab fa-facebook" - For facebook</span><br>
+                            <span>"fab fa-twitter" - For twitter</span><br>
+                            <span>"fab fa-snapchat" - For snapchat</span><br>
+
+                             <span>"fab fa-linkedin" - For linkedin</span><br>
+					<hr>
+                              <span>visit <a target="_blank" href="https://fontawesome.com/icons?d=gallery">here</a> for more</span><br>
+
+                             
+
+                         </div>
+
                     </form>
 
                             </div>

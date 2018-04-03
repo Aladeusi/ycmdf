@@ -58,28 +58,11 @@
 
                                     <div class="form-body">
 
-                                    <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Firstname</label>
-                                                    <input class="form-control"   value="{{$Hire->firstname}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                   
 
 
 
-                                         <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Lastname</label>
-                                                    <input class="form-control"  value="{{$Hire->lastname}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
-
+                                       
 
                                         <div class="row">
                                             <div class="col-md-12 ">
@@ -92,27 +75,10 @@
                                         </div>
 
 
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Nationality</label>
-                                                    <input class="form-control"  value="{{$Hire->country}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                       
 
 
-
-                                         <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Phone</label>
-                                                    <input class="form-control"  value="{{$Hire->phone}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                       
 
 
 
@@ -124,34 +90,18 @@
 
 
 
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Service</label>
-                                                    <input class="form-control"  value="{{$Hire->service->name}}" disabled="disabled">
-                                                </div>
+                                      
 
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Duration</label>
-                                                    <input class="form-control"  value="{{$Hire->completed_at}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                      
 
 
                                         <div class="row">
                                             <div class="col-md-12 ">
                                                 <div class="form-group">
-                                                    <label>Victim's Info</label>
+                                                    <label>Request</label>
 
                                                     <textarea class="form-control" disabled="disabled">
-                                                        {{$Hire->victim_info}}
+                                                        {{$Hire->hrequest}}
                                                     </textarea>
                                                     
                                                 </div>
@@ -168,15 +118,7 @@
                                        
 
 
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Price range</label>
-                                                    <input class="form-control"  value="{{$Hire->price_range}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                       
 
 
                                         <div class="row">
@@ -190,16 +132,7 @@
                                         </div>
 
 
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Is payment ready?</label>
-                                                    <input class="form-control"  value="{{$Hire->is_payment_ready}}" disabled="disabled">
-                                                </div>
-
-                                            </div>
-                                        </div>
-
+                                       
 
                                         
 
