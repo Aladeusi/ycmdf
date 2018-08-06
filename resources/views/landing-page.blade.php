@@ -12,7 +12,7 @@
                                 <div class="text-white text-center">
                                     <h1 class="bus_home_title mx-auto">FINESSEHACKERS</h1>  
 
-                                    <h2>A reliable platform where you can hire profesional hacker</h2>  
+                                    <h2>A reliable platform where you can hire a profesional hacker</h2>  
                                     <div class="bus_home_btn">
                                         <a href="" class="btn btn-outline-custom btn-rounded mt-4 mr-3 ">More</a> 
                                         <a href="{{route('request.create')}}" class="btn btn-custom btn-rounded mt-4 mr-3">Hire</a>
@@ -78,9 +78,9 @@
                                 <br>
 
                                 <p>EMAIL ADRESSES</p>
-                                <p class="mt-3 text-muted">Finessehackers1@gmail.com</p>
+                                <p class="mt-3 text-muted">finessehackers1@gmail.com</p>
 
-                                <p class="mt-3 text-muted">Extremeinfiltrators@gmail.com</p>
+                                <p class="mt-3 text-muted">finessehackers@gmail.com</p>
                                 <br>
 
                                 <p>OPENING HOURS</p>

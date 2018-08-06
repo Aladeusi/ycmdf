@@ -3,6 +3,7 @@
     
 <!-- Mirrored from srbthemes.com/busion/index_6.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Mar 2018 12:47:51 GMT -->
 <head>
+	<meta name="msvalidate.01" content="6A6B9A61AF4982508E080C615B945050" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hire professional hacker today!</title>
@@ -132,7 +133,7 @@
                             <div class="contact-detail mt-3">
                                 <p class="mb-0">Email Us At</p>
                                 <p class="text-muted">finessehackers1@gmail.com</p>
-                                <p class="text-muted">finessehackers@gmal.com</p>
+                                <p class="text-muted">finessehackers@gmail.com</p>
                             </div>
                         </div>
                     </div>
