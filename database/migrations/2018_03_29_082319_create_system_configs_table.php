@@ -17,6 +17,7 @@ class CreateSystemConfigsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('name');
+            $table->string('value');
             $table->timestamps();
         });
     }
