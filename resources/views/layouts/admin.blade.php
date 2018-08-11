@@ -23,7 +23,7 @@
         <link href="{{asset('admin/assets/css/bootstrap-tagsinput.css')}}" rel="stylesheet" type="text/css" />
         
         <!--<link href="{{asset('admin/assets/css/summernote-bs4.css')}}" rel="stylesheet" type="text/css" />-->
-         <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet" type="text/css" />
+         <link href="{{asset('admin/assets/css/summernote.css')}}" rel="stylesheet" type="text/css" />
        
         
 
@@ -306,7 +306,7 @@
          <script src="{{asset('admin/assets/js/bootstrap-tagsinput.js')}}"></script>
          <script src="{{asset('admin/assets/js/bootstrap-tagsinput-angular.js')}}"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.js"></script>
+        <script src="{{asset('admin/assets/js/summernote.js')}}"></script>
         
         <script src="{{asset('admin/assets/js/detect.js')}}"></script>
         <script src="{{asset('admin/assets/js/fastclick.js')}}"></script>

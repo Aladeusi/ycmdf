@@ -1,4 +1,4 @@
-@extends('layouts.landing-page1')
+@extends('layouts.landing-page')
 
 @section('content')
       
@@ -9,21 +9,6 @@
 
 
 
-         <!-- START CTA -->
-        <section class="section" id="hire" style="background-color: black; ">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <br><br>
-                            <h1 class="text-white" style="text-transform: uppercase;">404</h1>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END CTA -->
 
 
         <!-- START SERVICES -->
@@ -55,11 +40,14 @@
                             <div class="service-content mt-4" style="text-align: justify;">
 
                                 <center>
+                                    <h1>404</h1>
                                     <H2>The page you are looking for cannot be found.</H2>
                                 </center>
                                 
-
-                                
+<br>
+                 <br>
+            <br>
+                           
                             </div>
 
                         </div>

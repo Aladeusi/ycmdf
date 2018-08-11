@@ -16,14 +16,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="{{asset('/images/logoxsm.png')}}">
+     <link rel="shortcut icon" href="{{asset('/images/logo-sticky.jpeg')}}">
   
     <link type="text/css" media="all" href="{{asset('blog/wp-content/cache/autoptimize/css/autoptimize_3ff1c6e549207aab4e270c2ca9e697ec.css')}}" rel="stylesheet" />
 
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/solid.css" integrity="sha384-g2aKxiZcFezoVOq4MsjaxuBbSxSlXD/NRQ5GaPLfvCtcTLgP3fYZKKAGxCM/wMfe" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/fontawesome.css" integrity="sha384-xdTUmhbcetyLRVL4PAriRajOve+/5pjOiy5sJABnhXMcRMVc9HI9s2KmOCjjDK/P" crossorigin="anonymous">
 
-    <title>Finesshack | Blog</title>
+    <title>YCMDF | Blog</title>
     
 
 
@@ -153,7 +153,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div id="entry-logo">
-                        <h1> <a href="" ><img src="{{asset('/images/logosm.png')}}" alt="Courage" style="width:30%;"/></a>
+                        <h1> <a href="" ><img src="{{asset('/images/logo-sticky.jpeg')}}" alt="Courage" style="width:30%;"/></a>
                             <span class="alt-logo">Courage</span></h1>
                     </div>
                 </div>
@@ -190,8 +190,8 @@
                                             </ul>
                                         </li>
 
-                                        <li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a target="_blank" href="{{route('request.create')}}">Hire a hacker</a>
-                                        </li>
+                                        <!--<li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a target="_blank" href="{{route('request.create')}}">Hire a hacker</a>
+                                        </li>-->
                                     </ul>
                                 </div>
                                 <!-- <div class="search-block"> <i class="fa fa-search"></i>
@@ -410,7 +410,6 @@
         <script type='text/javascript' src='{{asset("blog/wp-content/themes/wp-courage/js/jquery.infinitescroll.mine100.js?ver=4.7.2")}}'></script>
         <script type='text/javascript' src='{{asset("blog/wp-includes/js/wp-embed.mine100.js?ver=4.7.2")}}'></script>
 </body>
-<!-- Mirrored from wp.color-theme.com/courage/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Mar 2018 07:59:08 GMT -->
 
 </html>
 <!-- WP Fastest Cache file was created in 0.40981483459473 seconds, on 12-02-17 18:06:28 -->

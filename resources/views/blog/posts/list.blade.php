@@ -31,7 +31,7 @@
                         </div> 
                         <span class="entry-header-meta">
                          <span class="cat-desc h3">
-                             Collection of comprehensive hacking posts
+                             Collection of posts
                          </span> 
                          
 

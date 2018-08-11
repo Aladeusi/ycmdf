@@ -88,7 +88,7 @@ class PostController extends Controller
           return Redirect::back()->with('notification','Cover image name must not contain "php" keyword. Kindly rename the image');
         }
 
-    		$file->move('uploads',$file->getClientOriginalName());
+    		$file->move('public/uploads',$file->getClientOriginalName());
 
     		
     		$post=new Post;
